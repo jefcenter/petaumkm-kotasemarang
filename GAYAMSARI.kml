@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>GAYAMSARI.kml</name>
+	<StyleMap id="poly-9FC3FF-1000-135-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-9FC3FF-1000-135-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-9FC3FF-1000-135-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-9FC3FF-1000-135-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffc39f</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>87ffc39f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-9FC3FF-1000-135-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffc39f</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>87ffc39f</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GAYAMSARI</name>
+		<styleUrl>#poly-9FC3FF-1000-135-nodesc</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						110.439896,-7.008212,0 110.440338,-7.005340000000001,0 110.44017,-7.001639,0 110.439986,-7,0 110.439842,-6.998712,0 110.439247,-6.996228,0 110.439766,-6.994161,0 110.439766,-6.992016999999999,0 110.440414,-6.988919000000001,0 110.440948,-6.985866,0 110.441185,-6.983533,0 110.441643,-6.980439,0 110.441971,-6.978159,0 110.44239,-6.975611,0 110.442787,-6.973093,0 110.443283,-6.970523,0 110.443848,-6.966524999999999,0 110.444069,-6.964046,0 110.442894,-6.961746,0 110.441864,-6.958396,0 110.441093,-6.955984999999999,0 110.440224,-6.952712,0 110.440315,-6.949991,0 110.437179,-6.951855,0 110.435081,-6.952489,0 110.433136,-6.953337,0 110.430611,-6.954854,0 110.430679,-6.957254,0 110.430763,-6.960250000000001,0 110.430855,-6.964122999999999,0 110.430946,-6.967171,0 110.431061,-6.969906,0 110.431114,-6.972308,0 110.431175,-6.974481,0 110.431229,-6.976842000000001,0 110.431366,-6.979315000000001,0 110.431511,-6.982372,0 110.431587,-6.98557,0 110.431694,-6.987883999999999,0 110.431893,-6.990494,0 110.431953,-6.992688,0 110.429833,-6.993534,0 110.427742,-6.997330999999999,0 110.427593,-7,0 110.427582,-7.000203,0 110.427414,-7.002743,0 110.42936,-7.005358,0 110.431999,-7.005095,0 110.432144,-7.007297000000001,0 110.43351,-7.009037,0 110.435898,-7.009169,0 110.439896,-7.008212,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

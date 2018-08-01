@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CANDISARI.kml</name>
+	<StyleMap id="poly-795046-1000-163-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-795046-1000-163-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-795046-1000-163-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-795046-1000-163-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff465079</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>a3465079</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-795046-1000-163-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff465079</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>a3465079</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CANDISARI</name>
+		<styleUrl>#poly-795046-1000-163-nodesc</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						110.439545,-7.021443,0 110.435753,-7.019896000000001,0 110.431358,-7.017843,0 110.428032,-7.017159,0 110.425102,-7.016279999999999,0 110.421188,-7.014813,0 110.418907,-7.014011,0 110.419159,-7.018871,0 110.419769,-7.021169,0 110.420273,-7.02316,0 110.419403,-7.025017,0 110.418671,-7.026885000000001,0 110.418335,-7.029154,0 110.420288,-7.031322000000001,0 110.422455,-7.031393999999999,0 110.424812,-7.031213,0 110.42717,-7.031073000000001,0 110.429451,-7.031301000000001,0 110.431557,-7.033107,0 110.433121,-7.030882,0 110.435005,-7.02878,0 110.435638,-7.026677,0 110.43708,-7.024098,0 110.439545,-7.021443,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

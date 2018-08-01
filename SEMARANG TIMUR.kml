@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SEMARANG TIMUR.kml</name>
+	<StyleMap id="poly-DB4436-1000-138-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-DB4436-1000-138-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-DB4436-1000-138-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-DB4436-1000-138-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff3644db</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8a3644db</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-DB4436-1000-138-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff3644db</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8a3644db</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SEMARANG TIMUR</name>
+		<styleUrl>#poly-DB4436-1000-138-nodesc</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						110.452843,-6.989722,0 110.452469,-6.986506000000001,0 110.451668,-6.981475,0 110.451034,-6.979172,0 110.450561,-6.976448999999999,0 110.450264,-6.974109,0 110.4497,-6.970865,0 110.449005,-6.965734,0 110.448601,-6.962661,0 110.448135,-6.959298999999999,0 110.448876,-6.956208,0 110.448959,-6.953284,0 110.4487,-6.950891,0 110.446091,-6.950055000000001,0 110.443863,-6.949673,0 110.440315,-6.949991,0 110.440224,-6.952712,0 110.441093,-6.955984999999999,0 110.441864,-6.958396,0 110.442894,-6.961746,0 110.444069,-6.964046,0 110.443848,-6.966524999999999,0 110.443283,-6.970523,0 110.442787,-6.973093,0 110.44239,-6.975611,0 110.441971,-6.978159,0 110.441643,-6.980439,0 110.441185,-6.983533,0 110.440948,-6.985866,0 110.440414,-6.988919000000001,0 110.439766,-6.992016999999999,0 110.439766,-6.994161,0 110.439247,-6.996228,0 110.439842,-6.998712,0 110.439986,-7,0 110.44017,-7.001639,0 110.440338,-7.005340000000001,0 110.439896,-7.008212,0 110.441284,-7.010601999999999,0 110.446228,-7.010817,0 110.447975,-7.009513,0 110.450287,-7.006998,0 110.451828,-7.004454999999999,0 110.453003,-7.002794999999999,0 110.453771,-7,0 110.45401,-6.99913,0 110.453674,-6.996933,0 110.453209,-6.993986999999999,0 110.452843,-6.989722,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
