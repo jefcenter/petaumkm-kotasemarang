@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>GAJAH MUNGKUR.kml</name>
+	<Style id="poly-777777-1000-171-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff777777</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ab777777</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-777777-1000-171-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-777777-1000-171-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-777777-1000-171-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-777777-1000-171-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff777777</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ab777777</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GAJAH MUNGKUR</name>
+		<styleUrl>#poly-777777-1000-171-nodesc</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						110.418907,-7.014011,0 110.415619,-7.011099,0 110.413277,-7.008753,0 110.411125,-7.007092,0 110.408874,-7.005919,0 110.406136,-7.004941,0 110.403793,-7.004648,0 110.400078,-7.004648,0 110.396423,-7.002892,0 110.395493,-7.005175,0 110.394737,-7.007032,0 110.392708,-7.006054,0 110.390282,-7.005865999999999,0 110.38871,-7.007378999999999,0 110.387588,-7.009356,0 110.386696,-7.011248999999999,0 110.387451,-7.013246,0 110.387505,-7.015251,0 110.387352,-7.017448,0 110.388641,-7.019314,0 110.390625,-7.019955,0 110.392578,-7.02051,0 110.395111,-7.020654,0 110.396591,-7.022341,0 110.398437,-7.023192,0 110.399391,-7.025023,0 110.401642,-7.027355,0 110.405136,-7.026211,0 110.407166,-7.027022000000001,0 110.408958,-7.028805,0 110.411102,-7.030078,0 110.413635,-7.030902000000001,0 110.415916,-7.030916999999999,0 110.418335,-7.029154,0 110.418671,-7.026885000000001,0 110.419403,-7.025017,0 110.420273,-7.02316,0 110.419769,-7.021169,0 110.419159,-7.018871,0 110.418907,-7.014011,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

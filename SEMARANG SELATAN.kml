@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SEMARANG SELATAN.kml</name>
+	<Style id="poly-F8971B-1000-117-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff1b97f8</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>751b97f8</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-F8971B-1000-117-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff1b97f8</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>751b97f8</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-F8971B-1000-117-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-F8971B-1000-117-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-F8971B-1000-117-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>SEMARANG SELATAN</name>
+		<styleUrl>#poly-F8971B-1000-117-nodesc</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						110.427414,-7.002743,0 110.424301,-7.001681,0 110.423174,-7,0 110.423035,-6.999792,0 110.420196,-6.999515999999999,0 110.417801,-6.996943000000001,0 110.41539,-6.996330999999999,0 110.4133,-6.995789,0 110.410026,-6.995795,0 110.407806,-6.995436,0 110.404343,-6.996021999999999,0 110.402283,-6.99498,0 110.401405,-6.997404,0 110.401497,-6.999576,0 110.400951,-7,0 110.398964,-7.001544,0 110.396423,-7.002892,0 110.400078,-7.004648,0 110.403793,-7.004648,0 110.406136,-7.004941,0 110.408874,-7.005919,0 110.411125,-7.007092,0 110.413277,-7.008753,0 110.415619,-7.011099,0 110.418907,-7.014011,0 110.421188,-7.014813,0 110.425102,-7.016279999999999,0 110.428032,-7.017159,0 110.431358,-7.017843,0 110.435753,-7.019896000000001,0 110.439545,-7.021443,0 110.440994,-7.019829,0 110.442314,-7.017518000000001,0 110.443405,-7.015597000000001,0 110.446228,-7.010817,0 110.441284,-7.010601999999999,0 110.439896,-7.008212,0 110.435898,-7.009169,0 110.43351,-7.009037,0 110.432144,-7.007297000000001,0 110.431999,-7.005095,0 110.42936,-7.005358,0 110.427414,-7.002743,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

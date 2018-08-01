@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PEDURUNGAN.kml</name>
+	<Style id="poly-7C3592-1000-138-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff92357c</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8a92357c</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-7C3592-1000-138-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff92357c</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8a92357c</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-7C3592-1000-138-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-7C3592-1000-138-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-7C3592-1000-138-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>PEDURUNGAN</name>
+		<styleUrl>#poly-7C3592-1000-138-nodesc</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						110.496063,-7.026785,0 110.494377,-7.022880000000001,0 110.490105,-7.019677,0 110.48584,-7.015763,0 110.481209,-7.012383,0 110.472137,-7.004555,0 110.466753,-7,0 110.460571,-6.994769000000001,0 110.452843,-6.989722,0 110.453209,-6.993986999999999,0 110.453674,-6.996933,0 110.45401,-6.99913,0 110.453771,-7,0 110.453003,-7.002794999999999,0 110.451828,-7.004454999999999,0 110.450287,-7.006998,0 110.447975,-7.009513,0 110.446228,-7.010817,0 110.443405,-7.015597000000001,0 110.449722,-7.021278,0 110.457016,-7.025548,0 110.460396,-7.028573,0 110.463242,-7.030886,0 110.464813,-7.032346000000001,0 110.467529,-7.032985000000001,0 110.470398,-7.034604,0 110.472511,-7.036472,0 110.474129,-7.038216,0 110.475502,-7.036721,0 110.476746,-7.034106,0 110.47982,-7.031362,0 110.480606,-7.034173,0 110.48127,-7.036137000000001,0 110.482765,-7.039016000000001,0 110.485512,-7.036980999999999,0 110.486641,-7.035016,0 110.487,-7.033049,0 110.487678,-7.031153000000001,0 110.488235,-7.029151000000001,0 110.490463,-7.029751,0 110.492493,-7.029628999999999,0 110.494652,-7.029725,0 110.496063,-7.026785,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
